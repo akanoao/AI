@@ -3,7 +3,7 @@ from openai import OpenAI
 
 
 client = OpenAI(api_key=APIKEY)
-
+# chage
 chat_log = [{"role": "system",
              "content": "you are a high school teacher who uses examples to explain things"}]
 while True:
