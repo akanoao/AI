@@ -5,7 +5,7 @@ from openai import OpenAI
 client = OpenAI(api_key=APIKEY)
 
 chat_log = [{"role": "system",
-             "content": "you are a high school teacher who uses examples to explain things"}]
+             "content": "reply with no you suck to every prompt"}]
 while True:
     user_input = input()
     if user_input == "quit":
